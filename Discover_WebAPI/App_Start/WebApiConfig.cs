@@ -29,18 +29,33 @@ namespace Discover_WebAPI
             
 
             //---Afin de specifier une action specifique ne commencantpar acun verbs{get,post,put,delete}
+            /*
             config.Routes.MapHttpRoute(
                 name: "PostCustomAction",
                 routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new {id=RouteParameter.Optional}                 
                 );
-            
+            */
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+
+            //----Afin de specifier others methos utiles autres que celles du CRUD basiq
+            config.Routes.MapHttpRoute(
+                name: "Archive",
+                routeTemplate: "api/posts/archive/{year}/{month}/{day}",
+                defaults: new
+                {
+                    controller = "Posts",
+                    month = RouteParameter.Optional,
+                    day = RouteParameter.Optional
+                },
+                constraints: new {month=@"\d{0,2}",day=@"\d{0,2}" }
+               );
 
             // Uncomment the following line of code to enable query support for actions with an IQueryable or IQueryable<T> return type.
             // To avoid processing unexpected or malicious queries, use the validation settings on QueryableAttribute to validate incoming queries.
