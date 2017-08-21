@@ -45,7 +45,16 @@ namespace Discover_WebAPI.Models
 
         public Post Get(int id)
         {
-            return _posts.Single(p => p.Id == id);
+            Post _p = null; ;
+            try
+            {
+                _p = _posts.Single(p => p.Id == id);
+            }
+            catch (InvalidOperationException ex)
+            {
+                //throw;
+            }
+            return _p;
         }
 
         public void Create(Post post)

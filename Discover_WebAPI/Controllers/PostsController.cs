@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.ValueProviders;
 
 namespace Discover_WebAPI.Controllers
 {
@@ -53,10 +54,16 @@ namespace Discover_WebAPI.Controllers
         
         public Post Get(int id)
         {
-            return _repository.Get(id);
+            Post _p = null;
+            _p= _repository.Get(id);
+            if(_p!=null)
+                return _p;
+            else
+            throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.NotFound));
         }
 
         //-create
+        /**/
         public HttpResponseMessage Post(Post post)
         {
             _repository.Create(post);
@@ -66,6 +73,7 @@ namespace Discover_WebAPI.Controllers
             response.Headers.Location = new Uri(uri);
             return response;
         }
+        
 
         //-update
         public HttpResponseMessage Put(int id,Post post)
@@ -108,6 +116,35 @@ namespace Discover_WebAPI.Controllers
             }
         }
         #endregion
+
+        #region get value header,params
+        //---par defaut les types complex sont toujours lu depuis le body
+        //void Action([FromUri] Customer c1, Customer c2)  
+           //---ex :c1 is from the URI and c2 is from the body 
+        //---If your action needs multiple complex types, only one should come from the body.
+        // If you need to get multiple values from the request body, define a complex type
+        /*
+        public HttpResponseMessage Post([ValueProvider(typeof(HeaderValueFactory))] String username)
+        {
+            var reponse = Request.CreateResponse(HttpStatusCode.NotImplemented);
+            return reponse;
+        }
+        */
+
+        //-the attribute FromBody to specify that the value came from the body: 
+        //The FromUri attribute forces the parsing of the user from the URI instead of the body
+        /*
+        public HttpResponseMessage Post([FromBody] String username)
+        {
+            var reponse = Request.CreateResponse(HttpStatusCode.NotImplemented);
+            return reponse;
+        }
+        */
+        #endregion
+
+
+
+
 
 
     }

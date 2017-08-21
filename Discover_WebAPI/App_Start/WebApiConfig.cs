@@ -36,6 +36,7 @@ namespace Discover_WebAPI
                 defaults: new {id=RouteParameter.Optional}                 
                 );
             */
+ 
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
@@ -45,6 +46,7 @@ namespace Discover_WebAPI
 
 
             //----Afin de specifier others methos utiles autres que celles du CRUD basiq
+            
             config.Routes.MapHttpRoute(
                 name: "Archive",
                 routeTemplate: "api/posts/archive/{year}/{month}/{day}",
@@ -56,7 +58,7 @@ namespace Discover_WebAPI
                 },
                 constraints: new {month=@"\d{0,2}",day=@"\d{0,2}" }
                );
-
+            
             // Uncomment the following line of code to enable query support for actions with an IQueryable or IQueryable<T> return type.
             // To avoid processing unexpected or malicious queries, use the validation settings on QueryableAttribute to validate incoming queries.
             // For more information, visit http://go.microsoft.com/fwlink/?LinkId=279712.
