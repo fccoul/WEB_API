@@ -66,25 +66,32 @@ namespace Discover_WebAPI.Controllers
         /**/
         public HttpResponseMessage Post(Post post)
         {
+             if (ModelState.IsValid)
+            {
             _repository.Create(post);
             var response = Request.CreateResponse(HttpStatusCode.Created);
             response.StatusCode = HttpStatusCode.Created;
             string uri = Url.Link("DefaultApi", new { id = post.Id });
             response.Headers.Location = new Uri(uri);
             return response;
+            }
+             else
+                 throw new HttpResponseException(new HttpResponseMessage(HttpStatusCode.BadRequest));
         }
         
 
         //-update
         public HttpResponseMessage Put(int id,Post post)
         {
-            post.Id = id;
-            _repository.Update(post);
-           // var response = Request.CreateResponse(HttpStatusCode.NoContent);
-            var response = Request.CreateResponse(HttpStatusCode.OK);
-            string uri = Url.Link("DefaultApi", new { id = id });
-            response.Headers.Location = new Uri(uri);
-            return response;
+           
+                 post.Id = id;
+                _repository.Update(post);
+               // var response = Request.CreateResponse(HttpStatusCode.NoContent);
+                var response = Request.CreateResponse(HttpStatusCode.OK);
+                string uri = Url.Link("DefaultApi", new { id = id });
+                response.Headers.Location = new Uri(uri);
+                return response;
+            
         }
 
         //delete

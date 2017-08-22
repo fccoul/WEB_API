@@ -160,16 +160,24 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Common\AuthenticationService.cs" />
+    <Compile Include="Common\BasicAuthenticationHandler.cs" />
+    <Compile Include="Common\IAuthenticationService .cs" />
+    <Compile Include="Controllers\AuthorController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OdataController.cs" />
+    <Compile Include="Controllers\OtherController.cs" />
     <Compile Include="Controllers\PostsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\GeoPoint.cs" />
     <Compile Include="Models\HeaderValueFactory.cs" />
     <Compile Include="Models\HeaderValueProvider.cs" />
+    <Compile Include="Models\ImageFormatter.cs" />
     <Compile Include="Models\Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -244,6 +252,9 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Html\jquery-1.8.2.min.js" />
+    <Content Include="Img\dino.png" />
+    <Content Include="Img\jules.png" />
+    <Content Include="Img\tom.png" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
