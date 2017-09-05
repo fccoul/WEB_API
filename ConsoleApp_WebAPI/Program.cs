@@ -3,35 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Http;
+using System.Web.Http.SelfHost;
 
-using System.Net.Http.Formatting;
-using System.Net.Http.Headers;
-using System.Net.Http;
 
 namespace ConsoleApp_WebAPI
 {
+    //--hebergement en mode Self-hosting
     class Program
     {
         static void Main(string[] args)
         {
-            HttpClient client=new HttpClient();
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-            var reponse=client.GetAsync("http://localhost:64773/api/customer").Result;
-            if(reponse.IsSuccessStatusCode)
-            {
-                //ReadAsAsync : lit et deserialise automatiquement le corps de la reponse HTTP
-                var Customer=reponse.Content.ReadAsAsync<IEnumerable<Customer>>().Result;
-                foreach (var c in Customer)
-	                    {
-		                     Console.WriteLine("{0}\t{1}\t{2}",c.FirstName,c.LastName,c.Email);
-	                    }
-            }
-            else
-            {
-                Console.WriteLine("{0},{1}",reponse.StatusCode,reponse.ReasonPhrase);
-            }
-
+            string url="http://localhost:3005";
+            var config = new HttpSelfHostConfiguration(url);
+            config.Routes.MapHttpRoute("default",
+                                        "api/{controller}/{id}",
+                                         new { id = RouteParameter.Optional });
+            var server = new HttpSelfHostServer(config);
+            Console.WriteLine("demarrage du serveur sur {0}", url);
+            server.OpenAsync().Wait();
+            Console.WriteLine("Serveur demarré");
             Console.ReadLine();
         }
     }

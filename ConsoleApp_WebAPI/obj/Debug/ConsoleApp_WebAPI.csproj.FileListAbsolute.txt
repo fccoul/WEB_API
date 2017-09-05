@@ -1,10 +1,14 @@
-C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\obj\Debug\ConsoleApp_WebAPI.csprojResolveAssemblyReference.cache
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\ConsoleApp_WebAPI.exe.config
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\ConsoleApp_WebAPI.exe
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\ConsoleApp_WebAPI.pdb
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\Newtonsoft.Json.dll
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\System.Web.Http.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\System.Web.Http.SelfHost.dll
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\Newtonsoft.Json.xml
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\System.Web.Http.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\bin\Debug\System.Web.Http.SelfHost.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\obj\Debug\ConsoleApp_WebAPI.csprojResolveAssemblyReference.cache
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\obj\Debug\ConsoleApp_WebAPI.exe
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsoleApp_WebAPI\obj\Debug\ConsoleApp_WebAPI.pdb
