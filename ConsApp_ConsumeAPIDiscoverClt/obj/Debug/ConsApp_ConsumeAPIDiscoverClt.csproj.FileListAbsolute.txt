@@ -1,0 +1,15 @@
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\ConsApp_ConsumeAPIDiscoverClt.exe.config
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\ConsApp_ConsumeAPIDiscoverClt.exe
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\ConsApp_ConsumeAPIDiscoverClt.pdb
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\Newtonsoft.Json.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\Newtonsoft.Json.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\obj\Debug\ConsApp_ConsumeAPIDiscoverClt.csproj.App.config
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\obj\Debug\ConsApp_ConsumeAPIDiscoverClt.csprojResolveAssemblyReference.cache
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\obj\Debug\ConsApp_ConsumeAPIDiscoverClt.exe
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\ConsApp_ConsumeAPIDiscoverClt\obj\Debug\ConsApp_ConsumeAPIDiscoverClt.pdb

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Liste des clients...</title>
+    <script src="jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            alert('hello');
+            //envoir requete AJAX
+            var url ="http://localhost:41737/api/customer";
+            $.getJSON(url,
+                function (data) {
+                    $.each(data, function (key, val) {
+                        var str = val.Id + ' - ' + val.FirstName + ' - ' + val.LastName;
+
+                        $('<li/>', { html: str }).appendTo($('#customers'));
+                    });
+                });
+
+        });
+    </script>
+</head>
+<body>
+
+    <div id="body">
+          <h1>FCO Customers</h1>
+           <ul id="customers" />
+    </div>
+
+</body>
+</html>

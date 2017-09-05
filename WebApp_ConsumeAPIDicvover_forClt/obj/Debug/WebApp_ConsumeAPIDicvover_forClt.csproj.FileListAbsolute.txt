@@ -1,0 +1,5 @@
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WebApp_ConsumeAPIDicvover_forClt\bin\WebApp_ConsumeAPIDicvover_forClt.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WebApp_ConsumeAPIDicvover_forClt\bin\WebApp_ConsumeAPIDicvover_forClt.pdb
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WebApp_ConsumeAPIDicvover_forClt\obj\Debug\WebApp_ConsumeAPIDicvover_forClt.csprojResolveAssemblyReference.cache
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WebApp_ConsumeAPIDicvover_forClt\obj\Debug\WebApp_ConsumeAPIDicvover_forClt.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WebApp_ConsumeAPIDicvover_forClt\obj\Debug\WebApp_ConsumeAPIDicvover_forClt.pdb
