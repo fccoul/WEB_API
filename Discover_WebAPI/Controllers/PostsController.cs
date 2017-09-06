@@ -1,10 +1,12 @@
 ﻿using Discover_WebAPI.Models;
+using Swashbuckle.Swagger.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Description;
 using System.Web.Http.ValueProviders;
 
 namespace Discover_WebAPI.Controllers
@@ -53,6 +55,7 @@ namespace Discover_WebAPI.Controllers
         /// </summary>
         /// <returns></returns>
         //[ApiExplorerSettings(IgnoreApi = true)]
+        [SwaggerResponse(HttpStatusCode.Forbidden, Type = typeof(IQueryable<Post>))]       
         public IQueryable<Post> Get()
         {
             return _repository.GetAll();
@@ -67,6 +70,9 @@ namespace Discover_WebAPI.Controllers
         /// <returns>retourne le sule et unique post de cet Id</returns>      
         /// <exception cref="IndexOutOfRangeException">Exception déclenchée quand la tille du tab est depassée</exception>
         ////// <response code="201" cref="CreatedResponse" examplesProvider="CreatedResponseBuilder" examplesMethod="GetExamples">kpleus Returns the id  FCO of the created object</response>
+        [SwaggerResponse(HttpStatusCode.NotFound, Type = typeof(Post))]
+        [SwaggerResponse(HttpStatusCode.ProxyAuthenticationRequired)]
+        [SwaggerResponse(HttpStatusCode.Forbidden, "Acces non autorisé,seul FCO !", null)]
         public Post Get(int id)
         {
             /* \if matriculeconnecte
@@ -110,6 +116,7 @@ namespace Discover_WebAPI.Controllers
         /// <param name="id">la valeur Id de l'identifiant</param>
         /// <param name="post">l'objet post modifié</param>
         /// <returns></returns>
+        /// <response code="204">Aucun contenu a retourner !</response>
         public HttpResponseMessage Put(int id,Post post)
         {
            
@@ -136,6 +143,7 @@ namespace Discover_WebAPI.Controllers
             return reponse;
         }
 
+        [ApiExplorerSettings(IgnoreApi = true)]
         [HttpGet]
         public IQueryable<Post> Archive(int year, int month = 0, int day = 0)
         {

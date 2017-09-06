@@ -5,9 +5,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Description;
 
 namespace Discover_WebAPI.Controllers
 {
+    [ApiExplorerSettings(IgnoreApi = true)]//permet de l'ignorre durant la genration de la documentation ,valable aussi pour une methode
     public class OtherController : ApiController
     {
 

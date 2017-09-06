@@ -430,6 +430,7 @@
             <param name="id">la valeur Id de l'identifiant</param>
             <param name="post">l'objet post modifié</param>
             <returns></returns>
+            <response code="204">Aucun contenu a retourner !</response>
         </member>
         <member name="M:Discover_WebAPI.Controllers.PostsController.Delete(System.Int32)">
             <summary>

@@ -65,3 +65,5 @@ C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Disco
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\bin\System.Web.Http.dll
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\bin\System.Web.Http.xml
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\bin\Discover_WebAPI.XML
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\bin\Swashbuckle.Core.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\bin\WebActivatorEx.dll
