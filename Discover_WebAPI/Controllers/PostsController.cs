@@ -9,6 +9,9 @@ using System.Web.Http.ValueProviders;
 
 namespace Discover_WebAPI.Controllers
 {
+    /// <summary>
+    /// Controller pour les differents posts effectués...
+    /// </summary>
     public class PostsController : ApiController
     {
 
@@ -45,15 +48,31 @@ namespace Discover_WebAPI.Controllers
         */
         #region repository
 
-
+        ///<summary>
+        /// Recupère toutes  les values FCO..
+        /// </summary>
+        /// <returns></returns>
+        //[ApiExplorerSettings(IgnoreApi = true)]
         public IQueryable<Post> Get()
         {
             return _repository.GetAll();
         }
 
-        
+
+        /// <summary>
+        /// recupère le post concerné selon son identifiant
+        /// </summary>
+        /// <param name="id">la valeur Id su Post</param>
+        /// <remarks>ce Get est recupéré suite à lintervention du RT sur un contrôle</remarks>
+        /// <returns>retourne le sule et unique post de cet Id</returns>      
+        /// <exception cref="IndexOutOfRangeException">Exception déclenchée quand la tille du tab est depassée</exception>
+        ////// <response code="201" cref="CreatedResponse" examplesProvider="CreatedResponseBuilder" examplesMethod="GetExamples">kpleus Returns the id  FCO of the created object</response>
         public Post Get(int id)
         {
+            /* \if matriculeconnecte
+             * \a b  vrai
+             * endif  
+          * */
             Post _p = null;
             _p= _repository.Get(id);
             if(_p!=null)
@@ -63,7 +82,11 @@ namespace Discover_WebAPI.Controllers
         }
 
         //-create
-        /**/
+        /// <summary>
+        /// crée un nouveau Post
+        /// </summary>
+        /// <param name="post">la valeur du Post a crée !</param>
+        /// <returns></returns>
         public HttpResponseMessage Post(Post post)
         {
              if (ModelState.IsValid)
@@ -81,6 +104,12 @@ namespace Discover_WebAPI.Controllers
         
 
         //-update
+        /// <summary>
+        /// modifie le post selectionné
+        /// </summary>
+        /// <param name="id">la valeur Id de l'identifiant</param>
+        /// <param name="post">l'objet post modifié</param>
+        /// <returns></returns>
         public HttpResponseMessage Put(int id,Post post)
         {
            
@@ -95,6 +124,11 @@ namespace Discover_WebAPI.Controllers
         }
 
         //delete
+        /// <summary>
+        /// supprime le post selectionné
+        /// </summary>
+        /// <param name="id">la valeur Id du post à supprimé</param>
+        /// <returns></returns>
         public HttpResponseMessage Delete(int id)
         {
             _repository.Delete(id);

@@ -62,3 +62,6 @@ C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Disco
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\obj\Debug\Discover_WebAPI.csprojResolveAssemblyReference.cache
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\obj\Debug\Discover_WebAPI.dll
 C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\obj\Debug\Discover_WebAPI.pdb
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\bin\System.Web.Http.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\bin\System.Web.Http.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\Discover_WebAPI\bin\Discover_WebAPI.XML
