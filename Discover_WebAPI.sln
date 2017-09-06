@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_ConsumeAPIDicvover_f
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsApp_ConsumeAPIDiscoverClt", "ConsApp_ConsumeAPIDiscoverClt\ConsApp_ConsumeAPIDiscoverClt.csproj", "{BE168E30-7D29-4A34-9F66-B273F2E269C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSce_API", "WinSce_API\WinSce_API.csproj", "{A3FB5E61-B278-4943-ADD9-B932CA8B2843}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{BE168E30-7D29-4A34-9F66-B273F2E269C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE168E30-7D29-4A34-9F66-B273F2E269C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE168E30-7D29-4A34-9F66-B273F2E269C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FB5E61-B278-4943-ADD9-B932CA8B2843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FB5E61-B278-4943-ADD9-B932CA8B2843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FB5E61-B278-4943-ADD9-B932CA8B2843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FB5E61-B278-4943-ADD9-B932CA8B2843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

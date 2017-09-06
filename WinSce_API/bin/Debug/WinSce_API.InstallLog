@@ -1,0 +1,34 @@
+﻿Installing assembly 'C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.InstallLog
+   assemblypath = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe
+Installing service FCO_SceWebAPI...
+Service FCO_SceWebAPI has been successfully installed.
+Creating EventLog source FCO_SceWebAPI in log Application...
+Committing assembly 'C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.InstallLog
+   assemblypath = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe
+Uninstalling assembly 'C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.InstallLog
+   assemblypath = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe
+Removing EventLog source FCO_SceWebAPI.
+Service FCO_SceWebAPI is being removed from the system...
+Service FCO_SceWebAPI was successfully removed from the system.
+Installing assembly 'C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.InstallLog
+   assemblypath = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe
+Installing service FCO_SceWebAPI...
+Service FCO_SceWebAPI has been successfully installed.
+Creating EventLog source FCO_SceWebAPI in log Application...
+Committing assembly 'C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.InstallLog
+   assemblypath = C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe

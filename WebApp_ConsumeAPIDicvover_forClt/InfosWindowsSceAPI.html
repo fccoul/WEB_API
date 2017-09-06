@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>- WeB API -</title>
+    <script src="jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var url="http://localhost:5450/api/service/5";//--depoly sce windows
+            //var url = "http://localhost:41737/api/customer";//ok deploy IIS Express - mode debug
+            //var url = "http://localhost:3200/api/posts";//---deploy sous IIS
+            
+            $.ajax({
+                type: "GET",
+                cache: false,
+                url:url,
+                contentType: "application/json; charset=utf-8",
+                dataType:"json",
+                processData:false,
+                succes:function(resp){
+                    alert(resp);
+                    console.log(resp);
+                    $("#resultWebApi").html("OK");
+                    $("#resultWebApi").css("color", "green");
+                },
+                error:function(err){
+                    alert(err);
+                    console.log("call to web api failed !");
+                    $("#resultWebApi").html("KO");
+                    $("#resultWebApi").css("color", "red");
+                }
+            });
+         
+             
+            /*
+            $.getJSON(url,
+                     function (data) {
+                         alert("OK");
+                         //$.each(data, function (key, val) {
+                         //    $("#resultWebApi").html("OK");
+                         //    $("#resultWebApi").css("color", "green");
+                         //});
+                     });
+            */
+
+        });
+        
+
+    </script>
+</head>
+<body>
+    <h1>Get infos WIndows Service</h1>
+    <div id="resultWebApi"></div>
+</body>
+</html>

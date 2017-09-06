@@ -1,0 +1,16 @@
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe.config
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.exe
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\WinSce_API.pdb
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\Newtonsoft.Json.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\System.Web.Http.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\System.Web.Http.SelfHost.dll
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\Newtonsoft.Json.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\System.Web.Http.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\bin\Debug\System.Web.Http.SelfHost.xml
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\obj\Debug\WinSce_API.csprojResolveAssemblyReference.cache
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\obj\Debug\WinSce_API.ProjectInstaller.resources
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\obj\Debug\WinSce_API.csproj.GenerateResource.Cache
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\obj\Debug\WinSce_API.exe
+C:\Users\FHCOULIBALY\Documents\Visual Studio 2012\Projects\Discover_WebAPI\WinSce_API\obj\Debug\WinSce_API.pdb
